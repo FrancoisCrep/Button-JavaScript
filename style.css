@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    /* background-color: pink; */
+    display: block;
+    margin-bottom: 10px;
+    /* line-height: 40px; */
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav {
+    display: none;
+}
+
+.messageSecret-js {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.darkMode {
+    background-color: black;
+    color: white;
+}
+
+.darkMode a{
+    color:white;
+}
+#switch {
+    display: inline-block;
+}
+
+.darkMode #switch {
+    height: 50px;
+    width: 50px;
+}
+
+@media (min-width:640px) {
+    nav {
+        display: block;
+    }
+    #btMenu {
+        display:none;
+    }
+    ul {
+        display:flex;
+        justify-content: center;
+    }
+    nav a {
+        padding: 10px;
+    }
+}
